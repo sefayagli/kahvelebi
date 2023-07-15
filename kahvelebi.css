@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+/*horizontal*/
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+
+    position: relative;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+
+    position: relative;
+  }
+
+div.scroll-container .content {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 10px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width:280px;
+    height: 100px;
+    border-radius:0 0 15px 15px;
+    display: inline;
+    z-index: 2;
+    text-align: center;
+
+  }
+  /*horizontal end*/
+  .mainhead{
+    height: 120px;
+    background-color: black;
+    color: #f1f1f1;
+    margin: 20px 0 0 0;
+    border-radius: 20px;
+  }
+  .menulist{
+    height: 180px;
+    background-color: bisque;
+    margin-left: center;
+    margin: 20px 0 0 0;
+    border-radius: 20px;
+  }
+ 
