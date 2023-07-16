@@ -2,12 +2,14 @@
     box-sizing: border-box;
   }
 /*horizontal*/
+.sefa{
+    position: fixed;
+}
 div.scroll-container {
     background-color: #333;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
-
     position: relative;
   }
   
