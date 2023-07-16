@@ -1,15 +1,19 @@
 * {
     box-sizing: border-box;
   }
+  body{
+    background-color: rgb(99, 32, 32);
+  }
 /*horizontal*/
 .sefa{
 }
 div.scroll-container {
-    background-color: #333;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
     position: relative;
+    border-radius: 15px;
+    border: 1px solid white;
   }
   
   div.scroll-container img {
@@ -34,21 +38,68 @@ div.scroll-container .content {
     display: inline;
     z-index: 2;
     text-align: center;
+    font-size: 12px;
 
+  }
+  div.scroll-container h1{
+    text-transform: capitalize;
   }
   /*horizontal end*/
   .mainhead{
-    height: 120px;
+    height: fit-content;
     background-color: black;
     color: #f1f1f1;
     margin: 20px 0 0 0;
     border-radius: 20px;
+    text-align: center;
   }
   .menulist{
-    height: 180px;
+    height:40px;
     background-color: bisque;
     margin-left: center;
     margin: 20px 0 0 0;
     border-radius: 20px;
+    text-align:left;
+    color: brown;
+  }
+  .left{
+    width: 60%;
+    float: left;
+  }
+  .fiyat{
+    width: 19%;
+    text-align: right;
+    float: right;
+  }
+  .fiyat h1{
+    text-transform: uppercase;
+  }
+  .menulist h1{
+    padding: 10px;
+    text-transform: capitalize;
+    display: inline;
+    text-align: left;
+  }
+  h2{
+    padding: 20px;
+    text-transform: uppercase;
+  }
+  h3{
+    text-align: right;
+    text-transform: capitalize;
+    display: inline;
+    float: right;
+  }
+
+  @media screen and (max-width: 768px) {
+
+  }
+  @media screen and (min-width: 768px) {
+.menulist{
+  width: 50vw;
+}
+.mainhead{
+  width: 50vw;
+}
   }
  
