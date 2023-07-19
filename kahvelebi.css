@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   body{
-    background-color:#f84f01;
+    background-color:#f1f1f1;
     overflow-y: hidden;
   }
   section#home{
@@ -128,7 +128,6 @@ body {
   font-style: normal;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  color: #df1c1c;
 }
 
 h1,
@@ -262,7 +261,7 @@ div {
   scroll-snap-type: mandatory;
   scroll-behavior: smooth;
   font-size: 0px;
-  border: 2px solid rgb(69, 187, 15)
+  background-color: #f1f1f1;
 }
 
 .scroll-container .scroll-section {
@@ -276,7 +275,6 @@ div {
   height: 0px;
   width: 50%;
   scroll-snap-points-y: repeat(calc(100% + 17px));
-  border: 2px solid rgb(187, 15, 158);
 }
 
 .scroll-container.same-size .wrap {
@@ -307,8 +305,8 @@ div {
   width: 90%;
   box-shadow: 2px 5px 10px rgb(0, 0, 0);
   border-radius: 5px;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   margin: 5px;
 }
 /*Small screens*/
@@ -326,4 +324,9 @@ div {
   text-align: center;
   padding-top: 80px;
   font-size: 13px;
+}
+.navbar{
+  margin: 0;
+  position: fixed;
+  background-color: #b91919;
 }

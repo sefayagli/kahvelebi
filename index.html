@@ -141,15 +141,15 @@
       <article class="main">
         <div class="scroll-intro" id="intro">
           <div class="inner">
-            <h1>CSS Scroll Snap Points Example</h1>
+            <h1>Kahvaltılar</h1>
             <div class="supports" id="supports"></div>
           </div>
         </div>
         <div class="inner">
           <div class="scroll-container same-size" >
             <div class="wraps" ><h2>
-              <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare01.jpg" style="height: 100px; width: 100px;" >
-              sefa <br>ajksdafj</h2>
+              <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare01.jpg" >
+              sefa</h2>
             </div>
             <div class="wraps">
               <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare02.jpg">
@@ -160,18 +160,20 @@
             <div class="wraps">
               <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare04.jpg">
             </div>
+              <div class="wraps" ><h2>
+                <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare01.jpg" >
+                sefa</h2>
+              </div>
               <div class="wraps">
-              <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare02.jpg">
-            </div>
-            <div class="wraps">
-              <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare03.jpg">
-            </div>
-            <div class="wraps">
-              <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare04.jpg">
-            </div>
+                <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare02.jpg">
+              </div>
+              <div class="wraps">
+                <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare03.jpg">
+              </div>
+              <div class="wraps">
+                <img class="scroll-section" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snapsquare04.jpg">
+              </div>
           </div>
-              
-    </div>
         </div>
       </article>
     </article>
@@ -190,5 +192,19 @@
       } else {
         $('#supports').append('<h3 class="failure">It looks like your browser might not support scroll snap properties</h3>');
       }
-    });</script>
+    });
+    function openCity(evt, sogukIcecek) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(sogukIcecek).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
 </body>
