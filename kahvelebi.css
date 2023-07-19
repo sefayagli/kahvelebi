@@ -3,6 +3,7 @@
   }
   body{
     background-color:#f84f01;
+    overflow-y: hidden;
   }
   section#home{
     height: 100vh;
@@ -315,7 +316,7 @@ div {
 @media screen and (max-width: 643px) {
   .scroll-container.same-size {
     width: 100%;
-    height:75vh;
+    height:65vh;
     padding-bottom: 0;
     /*padding-bottom: 100%;*/
   }
