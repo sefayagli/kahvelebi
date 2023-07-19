@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   body{
-    background-color:#f1f1f1;
+    background-color:#f84f01;
   }
   section#home{
     height: 100vh;
@@ -15,14 +15,15 @@ div.scroll-container2 {
     white-space: nowrap;
     padding: 1vh;
     position: relative;
+    background-color:#ffffff00;
+    margin: 0 1vh 0 1vh;
   }
   
   div.scroll-container2 img {
     padding: 1vh;
-    border-radius: 20px;
-    width: 15vh;
+    border-radius: 15px;
+    width: 20vh;
     height: 15vh;
-
     position: relative;
   }
 
@@ -32,18 +33,20 @@ div.scroll-container2 .content {
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    width:13vh;
+    width:18vh;
     height: 13vh;
-    border-radius:15px;
+    border-radius:12px;
     display: inline;
     z-index: 2;
     text-align: center;
     font-size: 12px;
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
 
   }
   div.scroll-container2 h1{
     text-transform: capitalize;
     font-size: 2vh;
+    margin-top: 29%;
   }
   /*horizontal end*/
   .mainhead{
@@ -124,7 +127,7 @@ body {
   font-style: normal;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  color: #333;
+  color: #df1c1c;
 }
 
 h1,
@@ -232,8 +235,8 @@ div {
 .inner {
   max-width: 1000px;
   margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
 }
 
 .failure {
@@ -258,13 +261,13 @@ div {
   scroll-snap-type: mandatory;
   scroll-behavior: smooth;
   font-size: 0px;
+  border: 2px solid rgb(69, 187, 15)
 }
 
 .scroll-container .scroll-section {
   display: inline-block;
   vertical-align: middle;
-  background: #fff;
-  border: solid 1px #ccc;
+  background: #b91919;
 }
 
 .scroll-container.same-size {
@@ -272,6 +275,7 @@ div {
   height: 0px;
   width: 50%;
   scroll-snap-points-y: repeat(calc(100% + 17px));
+  border: 2px solid rgb(187, 15, 158);
 }
 
 .scroll-container.same-size .wrap {
@@ -281,15 +285,30 @@ div {
   width: calc(100% + 17px);
   padding: 0px;
   display: inline-block;
-  white-space: nowrap;
+  white-space: nowrap;;
+}
+.wraps {
+  background-color: #f1f1f1;
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+  margin: 10px;
+  width: 95%;
+}
+.wraps h2{
+  color: black;
+  font-size: 12px;
+  text-transform: capitalize;
+  
+
 }
 
 .scroll-container.same-size .scroll-section {
-  height: 100%;
-  width: 100%;
-  border: solid 1px #ccc;
-  background: #eee;
-  padding: 15px;
+  height: 90%;
+  width: 90%;
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
 }
 /*Small screens*/
 
