@@ -26,21 +26,21 @@ div.scroll-container2 {
   }
   
   div.scroll-container2 img {
-    padding: 12px;
+    padding: 3vh;
     border-radius: 20px;
-    width: 160px;
-    height: 100px;
+    width: 18vh;
+    height: 14vh;
     position: relative;
   }
 
 div.scroll-container2 .content {
     position: absolute;
-    margin:12px 14px 14px 12px;
+    margin:3vh 14px 14px 3vh;
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    width:136px;
-    height: 76px;
+    width:15vh;
+    height: 11vh;
     border-radius:9px;
     display: inline;
     z-index: 2;
