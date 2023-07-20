@@ -57,6 +57,7 @@ div.scroll-container2 .content {
   .mainhead{
     height: 7vh;
     color: #000000;
+    line-height:7vh;
   }
   
   .fiyat{
