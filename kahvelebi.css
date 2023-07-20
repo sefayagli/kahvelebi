@@ -2,9 +2,10 @@
     box-sizing: border-box;
   }*/
   body{
-    background-color:#ffffff;
-    overflow-y: hidden;
+    background-color:#f1f1f1;
+    /*overflow-y: hidden;*/
     box-sizing:border-box;
+    overscroll-behavior-y:contain ;
   }
   section#home{
     height: 95vh;
@@ -18,7 +19,7 @@ div.scroll-container2 {
     padding: 10px;
     position: relative;
     background-color:#cf1b1b00;
-    margin: 0 10px 0 10px;
+    margin: 0;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.11);
   }
   
@@ -331,10 +332,10 @@ div {
 }*/
 ul {
   list-style-type: none;
-  margin: 0  10px 0 10px;
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #fd5d00;
+  background-color: #884b28;
   height: 50px;
 }
 
