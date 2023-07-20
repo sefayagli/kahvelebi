@@ -67,7 +67,7 @@ div.scroll-container2 .content {
   .mainhead h1{
     text-transform: uppercase;
     padding-bottom: 1vh;
-    font-size: 5vh;
+    font-size: calc(3vh + 0.8rem);
   }
   
 
