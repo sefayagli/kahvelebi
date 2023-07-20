@@ -3,7 +3,7 @@
   }*/
   body{
     background-color:#f1f1f1;
-    /*overflow-y: hidden;*/
+    overflow-y: hidden;
     box-sizing:border-box;
   }
   section#home{
@@ -296,10 +296,14 @@ div {
   text-transform: capitalize;
 }
 .inner h1{
-  margin-left: 1vh;
+  margin-left: 10px;
   font-size: 30px;
   font-weight: 2200;
 }
+
+
+
+
 
 .scroll-container.same-size .scroll-section {
   height: 90%;
@@ -314,7 +318,7 @@ div {
 @media screen and (max-width: 643px) {
   .scroll-container.same-size {
     width: 100%;
-    height:55vh;
+    height:65vh;
     padding-bottom: 0;
     /*padding-bottom: 100%;*/
   }
