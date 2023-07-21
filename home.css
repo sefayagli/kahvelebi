@@ -15,13 +15,14 @@ body{
     position: fixed;
     line-height: 7dvh;
     padding: 0 1vw 0 1vw;
+    font-family: cursive;
     z-index: 5;
 }
 .anamenu{
     margin: 7dvh 0 0 0;
     width: 100%;
     height: 17dvh;
-    max-height: 19dvh;
+    max-height: 17dvh;
     white-space: nowrap;
     overflow-y: hidden;
     position: relative;
