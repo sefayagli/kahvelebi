@@ -50,17 +50,16 @@ body{
 }
 h1{
     text-transform: capitalize;
-    font-size: calc(.7rem + .9vh);
+    font-size: calc(.7rem + .8vh);
     margin: 0;
 }
 h2{
-    font-size: calc(.7rem + .5vh);
+    font-size: calc(.6rem + .5vh);
     color: rgba(0, 0, 0, 0.712);
 }
 .head h1{
     font-size: calc(1rem + .9vh);
     color: 3F2305;
-    background-color: #DFD7BF;
 }
 .navbar a{
     padding: 0;
@@ -86,12 +85,15 @@ h2{
     font-weight: 20000;
     font-size: calc(1rem + .9vh);
     text-align: center;
+    /*background-color: #DFD7BF;*/
+    box-shadow: 2px 2px 5px rgba(63, 35, 5, 0.808);
 }
 .menu{
     margin: 0 ;
     width: 100%;
-    height: 70vh;
+    height: 69vh;
     overflow: auto;
+    padding: 1vh 0 0 0;
 }
 .gnl{
     width: 46%;
@@ -99,7 +101,7 @@ h2{
     display: flex;
     float: left;
     margin: 0 2% 2% 2%;
-    background-color: #fdfdfd;
+    /*background-color: #fdfdfd;*/
     box-shadow: 2px 2px 5px rgb(63, 35, 5);
 }
 .gnl .images{
