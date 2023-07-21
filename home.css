@@ -1,6 +1,9 @@
-
+*{
+    box-sizing: border-box;
+}
 body{
-    background-color:#F5F5F5;
+    /*background-color:#F5F5F5;*/
+    background-color: #3F2305;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     overscroll-behavior-y:contain ;
@@ -15,16 +18,18 @@ body{
     position: fixed;
     line-height: 7dvh;
     padding: 0 1vw 0 1vw;
-    z-index: 5;
 }
+
 .anamenu{
-    margin: 7dvh 0 0 0;
+    /*margin: 7dvh 0 0 0;*/
     width: 100%;
     height: 17dvh;
     max-height: 17dvh;
     white-space: nowrap;
     overflow-y: hidden;
     position: relative;
+
+    margin: 7dvh 0 0 0;
 }
 
 .menutext {
@@ -48,7 +53,7 @@ body{
     width: 22dvh;
     margin: 1.5dvh 1dvh 1.5dvh 1dvh;
     border-radius: 1vh;
-    background-color: aliceblue;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.247);
 }
 h1{
     text-transform: capitalize;
@@ -61,7 +66,8 @@ h2{
 }
 .head h1{
     font-size: calc(1rem + .9vh);
-    color: #3F2305;
+    /*color: #3F2305;*/
+    color: #F5F5F5;
 }
 .navbar a{
     padding: 0;
@@ -88,14 +94,15 @@ h2{
     font-size: calc(1rem + .9vh);
     text-align: center;
     /*background-color: #DFD7BF;*/
-    z-index: 120;
 }
 .menu{
     margin: 0 ;
-    height: 67dvh;
+    height: 69dvh;
     overflow: auto;
     padding: 1dvh 0 2dvh 0;
     background-color:#F5F5F6;
+
+    margin: 0 1vh 0 1vh;
 }
 .gnl{
     width: 49.9%;
