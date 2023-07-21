@@ -6,16 +6,17 @@ body{
 .navbar{
     top: 0;
     width: 100%;
-    height: 8vh;
-    background-color: #fc5000;
+    height: 7vh;
+    background-color: #f57207;
     float: left;
     position: fixed;
-    line-height: 8vh;
+    line-height: 7vh;
     color: #fdfdfd;
     padding: 0 1vw 0 1vw;
+    font-family: cursive;
 }
 .anamenu{
-    margin: 8vh 0 0 0;
+    margin: 7vh 0 0 0;
     width: 100%;
     height: 17vh;
     max-height: 19vh;
@@ -37,6 +38,7 @@ body{
     text-align: center;
     line-height: 19vh;
     font-size: calc(.6rem + .8vh);
+    font-weight: bold;
     text-transform: uppercase;
   }
 .anamenu .images{
@@ -52,7 +54,7 @@ h1{
     margin: 0;
 }
 h2{
-    font-size: calc(.7rem + .8vh);
+    font-size: calc(.7rem + .5vh);
     color: rgba(0, 0, 0, 0.712);
 }
 .head h1{
@@ -64,27 +66,15 @@ h2{
     width: 32.4%;
     margin: 0;
     text-align: center;
-    font-size: calc(.9rem + 1vh);
+    font-size: calc(.9rem + .8vh);
     text-decoration: none;
     color: #fdfdfd;
+    line-height: 7vh;
 }
 .navbar .logo{
     text-align: right;
     float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .head{
@@ -120,7 +110,7 @@ h2{
 .name{
     margin: 1vh 0 1vh 0;
     height: 13vh;
-    width: 70%;
+    width: 75%;
     line-height: 3vh;
 }
 .fiat{
@@ -130,7 +120,10 @@ h2{
     text-align: right;
     line-height: 10vh;
 }
-
+.tabcontent {
+    display: none;
+    border-top: none;
+  }
 @media screen and (max-width: 720px){
     .gnl{
         width: 96%;
