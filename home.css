@@ -1,6 +1,7 @@
 body{
     background-color: orange;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .anamenu{
@@ -8,20 +9,30 @@ body{
     width: 100%;
     height: 20vh;
     max-height: 20vh;
-    background-color: black;
     white-space: nowrap;
     overflow-y: hidden;
     position: relative;
 }
 
 .anamenu .images{
-    height: 16vh;
+    height: 13vh;
     width: 22vh;
     margin: 2vh 1vh 2vh 1vh;
     border-radius: 1vh;
     background-color: aliceblue;
 }
-
+h1{
+    text-transform: capitalize;
+    font-size: calc(.7rem + .9vh);
+    margin: 0;
+}
+h2{
+    font-size: calc(.7rem + .8vh);
+    color: rgba(0, 0, 0, 0.712);
+}
+.head h1{
+    font-size: calc(1rem + .9vh);
+}
 
 
 
@@ -38,19 +49,16 @@ body{
 
 
 .head{
-    margin-top: 1vh;
     height: 7vh;
-    background-color: aqua;
     line-height: 7vh;
     text-transform: uppercase;
     font-weight: 20000;
     font-size: calc(1rem + .9vh);
 }
 .menu{
-    margin: 1vh 0 1vh 0;
+    margin: 0 0 1vh 0;
     width: 100%;
-    height: 70vh;
-    max-height: 70vh;
+    height: 72vh;
     overflow: auto;
 }
 .gnl{
@@ -60,7 +68,6 @@ body{
     float: left;
     margin: 1px;
     background-color: azure;
-    border: 1px solid black;
 }
 .gnl .images{
     margin: 1vh;
@@ -72,15 +79,14 @@ body{
     margin: 1vh;
     height: 13vh;
     width: 70%;
-    border: 1px solid rgb(236, 228, 228);
+    line-height: 3vh;
 }
 .fiat{
     margin: 1vh;
     height: 13vh;
     width: 20%;
     text-align: right;
-    line-height: 13vh;
-    border: 1px solid rgb(236, 228, 228);
+    line-height: 10vh;
 }
 
 @media screen and (max-width: 720px){
