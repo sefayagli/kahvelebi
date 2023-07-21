@@ -6,6 +6,7 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     overscroll-behavior-y:contain ;
+    height: 100vh;
     height: -webkit-fill-available;
 }
 .navbar{
