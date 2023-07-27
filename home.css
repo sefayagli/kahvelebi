@@ -134,10 +134,8 @@ h2{
     display: inline-block;
     width: 75%;
     line-height: 3dvh;
-    background-color: #3F2305;
 }
 .fiat{
-    background-color: aqua;
     margin: 1dvh 1dvh 1dvh 0;
     height: 13dvh;
     display: inline;
@@ -210,11 +208,11 @@ h2{
     }
     h1{
         text-transform: capitalize;
-        font-size: calc(.7rem + .8dvh);
+        font-size: calc(.7rem + .8vh);
         margin: 0;
     }
     h2{
-        font-size: calc(.5rem + .5dvh);
+        font-size: calc(.5rem + .5vh);
         color: rgba(0, 0, 0, 0.712);
     }
     .head h1{
@@ -262,7 +260,7 @@ h2{
         background-color:#F5F5F6;
     }
     .gnl .images{
-        margin: 1dvh;
+        margin: 1vh;
         height: 18vh;
         width: 18vh;
         border-radius: 5px;
