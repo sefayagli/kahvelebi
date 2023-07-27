@@ -84,6 +84,7 @@ h2{
     text-decoration: none;
     color: #F5F5F5;
     line-height: 7dvh;
+    filter: drop-shadow(-1px 5px 5px rgba(10, 10, 10, 0.815));
 }
 .navbar img{
     height: 6dvh; 
@@ -107,6 +108,7 @@ h2{
     /*background-color:#F5F5F6;*/
     margin: 0 1dvh 0 1dvh;
     align-items: center;
+    left: 50%;
 }
 .gnl{
     width: 49%;
@@ -127,6 +129,7 @@ h2{
     z-index: 8;
     border: 1px solid #3F2305;
     object-fit: cover;
+    box-shadow: 2px 2px 4px rgb(63, 35, 5);
 }
 .name{
     margin: 1dvh 0 1dvh 0;
@@ -150,7 +153,9 @@ h2{
   }
 @media screen and (max-width: 1200px){
     .gnl{
-        width: 98.8%;
+        width: 98%;
+        align-items: center;
+        left: 50%;
     }
 }
 
